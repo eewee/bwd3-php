@@ -21,17 +21,17 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Accueil <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/etape01.php">Etape 01</a>
+                    <a class="nav-link" href="./etape01.php">Etape 01</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    
+
 
 
     <!-- CONTENU -->
@@ -53,13 +53,13 @@
                  * ccc
                  */
 
-                echo "Exercice 1";
+                echo "<h3>xxx</h3>";
                 ?>
 
             </div>
             <div class="col-4">
 
-                <img src="/images/visuel-php.jpg" class="img-fluid" alt="Visuel PHP">
+                <img src="./images/visuel-php.jpg" class="img-fluid" alt="Visuel PHP">
 
                 <h1>PHP initiation</h1>
                 <ul>
