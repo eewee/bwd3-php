@@ -27,6 +27,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./etape01.php">Etape 01</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./etape02.php">Etape 02</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./etape03.php">Etape 03</a>
+                </li>
             </ul>
         </div>
     </nav>
