@@ -21,8 +21,10 @@ require_once "header.php";
                  * ccc
                  */
 
-                echo "<h3>xxx</h3>";
-                echo "Bonjour xxx";
+                // Variable
+                $prenom = "John";
+                $nom = "DOE";
+                echo "Bonjour ".$prenom." ".$nom;
                 ?>
 
             </div>
