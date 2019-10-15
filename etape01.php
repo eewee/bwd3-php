@@ -24,7 +24,26 @@ require_once "header.php";
                 // Variable
                 $prenom = "John";
                 $nom = "DOE";
-                echo "Bonjour ".$prenom." ".$nom;
+                echo "Bonjour ".$prenom." ".$nom."<hr>";
+
+                // Paragraphe
+                $monTexte = "
+                <p>
+                    Lorem ipsum<br>
+                    Test aaa<br>
+                    Test bbb
+                </p>
+                <hr>
+                ";
+                echo $monTexte;
+
+                // Tableau
+                $tableauA = array(
+                    "Michael",      // 0
+                    "Sophie",       // 1
+                    "Pierre"        // 2
+                );
+                echo $tableauA[1]."<hr>";
                 ?>
 
             </div>
