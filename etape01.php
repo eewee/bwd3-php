@@ -1,4 +1,9 @@
 <?php
+// Afficher les erreurs :
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+
+// Inclure le fichier header.php :
 require_once "header.php";
 ?>
 
@@ -8,7 +13,7 @@ require_once "header.php";
             <div class="col-8">
 
                 <div class="alert alert-primary" role="alert">
-                    <h2>Variables :</h2>
+                    <h2>Variable :</h2>
                 </div>
 
                 <?php
@@ -32,18 +37,24 @@ require_once "header.php";
                     Lorem ipsum<br>
                     Test aaa<br>
                     Test bbb
-                </p>
-                <hr>
-                ";
+                </p>";
                 echo $monTexte;
+                ?>
 
+
+
+                <div class="alert alert-primary" role="alert">
+                    <h2>Tableau :</h2>
+                </div>
+
+                <?php
                 // Tableau
-                $tableauA = array(
-                    "Michael",      // 0
-                    "Sophie",       // 1
-                    "Pierre"        // 2
+                $couleurs = array(
+                    "rouge",
+                    "vert",
+                    "gris"
                 );
-                echo $tableauA[1]."<hr>";
+                echo $couleurs[1];
                 ?>
 
             </div>
@@ -53,8 +64,10 @@ require_once "header.php";
 
                 <h1>PHP initiation</h1>
                 <ul>
-                    <li>Les variables.</li>
-                    <li>...</li>
+                    <li>Variable</li>
+                    <li>Tableau</li>
+                    <li>Condition</li>
+                    <li>Boucle</li>
                 </ul>
 
             </div>
@@ -62,5 +75,6 @@ require_once "header.php";
     </div>
 
 <?php
+// Inclure le fichier footer.php :
 require_once "footer.php";
 ?>
