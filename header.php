@@ -1,3 +1,10 @@
+<?php
+// Afficher les erreurs :
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+
+require_once "config.php";
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -32,6 +39,15 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./etape03.php">Etape 03</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./etape04.php">Etape 04</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./etape05.php">Etape 05</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./etape06.php">Etape 06</a>
                 </li>
             </ul>
         </div>

@@ -27,3 +27,12 @@ Initiation au PHP
 
 ## Etape 03
 1. Utiliser des boucles.
+
+## Etape 04
+1. Utiliser des $_GET.
+
+## Etape 05
+1. Utiliser des formulaires ($_POST).
+
+## Etape 06
+1. Utiliser une base de données.

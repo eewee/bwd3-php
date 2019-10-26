@@ -1,11 +1,4 @@
-<?php
-// Afficher les erreurs :
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
-
-// Inclure le fichier header.php :
-require_once "header.php";
-?>
+<?php require_once "header.php"; ?>
 
     <!-- CONTENU -->
     <div class="container">
@@ -59,22 +52,9 @@ require_once "header.php";
 
             </div>
             <div class="col-4">
-
-                <img src="./images/visuel-php.jpg" class="img-fluid" alt="Visuel PHP">
-
-                <h1>PHP initiation</h1>
-                <ul>
-                    <li>Variable</li>
-                    <li>Tableau</li>
-                    <li>Condition</li>
-                    <li>Boucle</li>
-                </ul>
-
+                <?php require_once "sidebar.php"; ?>
             </div>
         </div>
     </div>
 
-<?php
-// Inclure le fichier footer.php :
-require_once "footer.php";
-?>
+<?php require_once "footer.php"; ?>
