@@ -11,12 +11,18 @@
 
                 <?php
                 // Ceci est un commentaire en ligne
+                // mon commentaire
 
                 /**
                  * Ceci est un commentaire pouvant être sur plusieurs lignes.
                  * aaa
                  * bbb
                  * ccc
+                 *
+                 * ddd
+                 * xxx
+                 * ddd
+                 *
                  */
 
                 // Variable
@@ -43,9 +49,9 @@
                 <?php
                 // Tableau
                 $couleurs = array(
-                    "rouge",
-                    "vert",
-                    "gris"
+                    "rouge",        // 0
+                    "vert",         // 1
+                    "gris"          // 2
                 );
                 echo $couleurs[1];
                 ?>
