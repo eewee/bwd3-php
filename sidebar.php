@@ -2,11 +2,10 @@
 
 <h1>PHP initiation</h1>
 <ul>
-    <li>Variable</li>
-    <li>Tableau</li>
-    <li>Condition</li>
-    <li>Boucle</li>
-    <li>$_GET</li>
-    <li>$_POST (formulaire)</li>
-    <li>Base de données</li>
+    <li><a href="/etape01.php">Variable</a></li>
+    <li><a href="/etape02.php">Conditions</a></li>
+    <li><a href="/etape03.php">Boucles</a></li>
+    <li><a href="/etape04.php">$_GET</a></li>
+    <li><a href="/etape05.php">$_POST</a></li>
+    <li><a href="/etape06.php">Base de données</a></li>
 </ul>
