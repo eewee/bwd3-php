@@ -3,6 +3,7 @@
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
+session_start();
 require_once "config.php";
 ?>
 <!doctype html>
@@ -14,6 +15,9 @@ require_once "config.php";
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom CSS (VOTRE CSS) -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <title>PHP - initiation (etape 01)</title>
 </head>
@@ -32,16 +36,16 @@ require_once "config.php";
                     <a class="nav-link" href="./">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./etape01.php">Etape 01</a>
+                    <a class="nav-link" href="./etape01.php">Variable</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./etape02.php">Etape 02</a>
+                    <a class="nav-link" href="./etape02.php">Condition</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./etape03.php">Etape 03</a>
+                    <a class="nav-link" href="./etape03.php">Boucle</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./etape04.php">Etape 04</a>
+                    <a class="nav-link" href="./etape04.php">Fonction</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./etape05.php">Etape 05</a>
