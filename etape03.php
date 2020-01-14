@@ -10,6 +10,7 @@
                 </div>
 
                 <?php
+/*
                 echo "<h3>Boucle for :</h3>";
 
                 $couleurs = ["rouge", "vert", "bleu", "orange", "rose"];
@@ -39,11 +40,47 @@
                 foreach ($infoEleve as $key => $value) {
                     echo $key." - ".$value."<br>";
                 }
+*/
 
 
+/*
+                $notes = array(15, 18, 14, 20);
+                for (
+                    $i = 0;                 // debut (on commence ici)
+                    $i < sizeof($notes);    // fin (on s'arrete ici)
+                    $i++                    // incrementer (+1 à chaque tour de boucle)
+                ) {
+                    echo $notes[$i] . "<br>";
+                }
+*/
 
 
+//                $eleves = [
+//                    "prenom" => [],
+//                    "nom" => [],
+//                    "classe" => []
+//                ];
 
+                $eleves = [
+                    [
+                        "prenom" => "John",
+                        "nom"    => "DOE",
+                        "classe" => "BWD2"
+                    ],
+                    [
+                        "prenom" => "Eric",
+                        "nom"    => "DURANT",
+                        "classe" => "BWD3"
+                    ]
+                    // ...
+                ];
+
+                foreach ($eleves as $eleve) {
+                    foreach ($eleve as $value) {
+                        echo $value . " - ";
+                    }
+                    echo "<br>";
+                }
                 ?>
 
             </div>
