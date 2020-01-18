@@ -44,34 +44,34 @@
                     //---------------------------------------------------------------------------
                     // SELECT : prepare
                     //---------------------------------------------------------------------------
-                    echo "<h2>Prepare :</h2>";
-                    $req = $pdo->prepare('SELECT * FROM article WHERE id_article = ?'); // AND titre_article = ?
-                    $req->execute(array(2));
-                    $rows = $req->fetchAll();
-                    foreach($rows as $row) {
-                        echo "Titre : ".$row['titre_article']."<br>";
-                    }
+//                    echo "<h2>Prepare :</h2>";
+//                    $req = $pdo->prepare('SELECT * FROM article WHERE id_article = ?'); // AND titre_article = ?
+//                    $req->execute(array(2));
+//                    $rows = $req->fetchAll();
+//                    foreach($rows as $row) {
+//                        echo "Titre : ".$row['titre_article']."<br>";
+//                    }
 
                     //---------------------------------------------------------------------------
                     // SELECT : prepare with bindParam
                     //---------------------------------------------------------------------------
-                    echo "<h2>Prepare with bindParam :</h2>";
-                    $titre = "%Mon%";
-                    $contenu = "Mon contenu";
-
-                    $req = $pdo->prepare('
-                        SELECT id_article, titre_article
-                        FROM article
-                        WHERE titre_article LIKE ? AND contenu_article = ?');
-                    $req->bindParam(1, $titre, PDO::PARAM_STR);
-                    $req->bindParam(2, $contenu, PDO::PARAM_STR);
-                    $req->execute();
-                    $rows = $req->fetchAll();
-                    foreach($rows as $row) {
-                        echo "
-                        Id : ".$row['id_article']."<br>
-                        Titre : ".$row['titre_article']."<br>";
-                    }
+//                    echo "<h2>Prepare with bindParam :</h2>";
+//                    $titre = "%Mon%";
+//                    $contenu = "Mon contenu";
+//
+//                    $req = $pdo->prepare('
+//                        SELECT id_article, titre_article
+//                        FROM article
+//                        WHERE titre_article LIKE ? AND contenu_article = ?');
+//                    $req->bindParam(1, $titre, PDO::PARAM_STR);
+//                    $req->bindParam(2, $contenu, PDO::PARAM_STR);
+//                    $req->execute();
+//                    $rows = $req->fetchAll();
+//                    foreach($rows as $row) {
+//                        echo "
+//                        Id : ".$row['id_article']."<br>
+//                        Titre : ".$row['titre_article']."<br>";
+//                    }
 
                     //---------------------------------------------------------------------------
                     // INSERT : classique
