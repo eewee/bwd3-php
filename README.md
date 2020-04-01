@@ -36,3 +36,5 @@ Initiation au PHP
 
 ## Etape 06
 1. Utiliser une base de données.
+
+Terminé.
